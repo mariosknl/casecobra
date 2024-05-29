@@ -42,5 +42,6 @@ export function constructMetadata({
 			creator: "@mariosknl",
 		},
 		icons,
+		metadataBase: new URL("https://casecobra-mocha.vercel.app/"),
 	};
 }
