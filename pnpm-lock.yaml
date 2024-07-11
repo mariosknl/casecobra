@@ -60,8 +60,8 @@ dependencies:
     specifier: ^11.1.9
     version: 11.2.12(react-dom@18.3.1)(react@18.3.1)
   lucide-react:
-    specifier: ^0.397.0
-    version: 0.397.0(react@18.3.1)
+    specifier: ^0.407.0
+    version: 0.407.0(react@18.3.1)
   next:
     specifier: 14.2.4
     version: 14.2.4(@babel/core@7.24.7)(react-dom@18.3.1)(react@18.3.1)
@@ -4861,8 +4861,8 @@ packages:
       yallist: 3.1.1
     dev: false
 
-  /lucide-react@0.397.0(react@18.3.1):
-    resolution: {integrity: sha512-rUcbRY5jFP/4za/OJvaRUUmdPsPb940Tw9zE1ehrRZmr9JnkDcW8OV3POR3XfEAAMDkssiTc5IWBFv8Y//pkDQ==}
+  /lucide-react@0.407.0(react@18.3.1):
+    resolution: {integrity: sha512-+dRIu9Sry+E8wPF9+sY5eKld2omrU4X5IKXxrgqBt+o11IIHVU0QOfNoVWFuj0ZRDrxr4Wci26o2mKZqLGE0lA==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
     dependencies:
