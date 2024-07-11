@@ -46,7 +46,7 @@ dependencies:
     version: 0.0.19(@types/react@18.3.3)(react@18.3.1)
   '@tanstack/react-query':
     specifier: ^5.37.1
-    version: 5.48.0(react@18.3.1)
+    version: 5.51.1(react@18.3.1)
   '@uploadthing/react':
     specifier: ^6.5.3
     version: 6.7.2(next@14.2.4)(react@18.3.1)(uploadthing@6.12.0)
@@ -2915,16 +2915,16 @@ packages:
       tslib: 2.6.3
     dev: false
 
-  /@tanstack/query-core@5.48.0:
-    resolution: {integrity: sha512-lZAfPPeVIqXCswE9SSbG33B6/91XOWt/Iq41bFeWb/mnHwQSIfFRbkS4bfs+WhIk9abRArF9Id2fp0Mgo+hq6Q==}
+  /@tanstack/query-core@5.51.1:
+    resolution: {integrity: sha512-fJBMQMpo8/KSsWW5ratJR5+IFr7YNJ3K2kfP9l5XObYHsgfVy1w3FJUWU4FT2fj7+JMaEg33zOcNDBo0LMwHnw==}
     dev: false
 
-  /@tanstack/react-query@5.48.0(react@18.3.1):
-    resolution: {integrity: sha512-GDExbjYWzvDokyRqMSWXdrPiYpp95Aig0oeMIrxTaruOJJgWiWfUP//OAaowm2RrRkGVsavSZdko/XmIrrV2Nw==}
+  /@tanstack/react-query@5.51.1(react@18.3.1):
+    resolution: {integrity: sha512-s47HKFnQ4HOJAHoIiXcpna/roMMPZJPy6fJ6p4ZNVn8+/onlLBEDd1+xc8OnDuwgvecqkZD7Z2mnSRbcWefrKw==}
     peerDependencies:
       react: ^18.0.0
     dependencies:
-      '@tanstack/query-core': 5.48.0
+      '@tanstack/query-core': 5.51.1
       react: 18.3.1
     dev: false
 
