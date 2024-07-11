@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@headlessui/react':
     specifier: ^2.0.3
-    version: 2.1.1(react-dom@18.3.1)(react@18.3.1)
+    version: 2.1.2(react-dom@18.3.1)(react@18.3.1)
   '@kinde-oss/kinde-auth-nextjs':
     specifier: ^2.2.6
     version: 2.3.3(@babel/core@7.24.7)(next@14.2.4)(react-dom@18.3.1)(react@18.3.1)
@@ -1463,17 +1463,17 @@ packages:
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     dev: true
 
-  /@floating-ui/core@1.6.3:
-    resolution: {integrity: sha512-1ZpCvYf788/ZXOhRQGFxnYQOVgeU+pi0i+d0Ow34La7qjIXETi6RNswGVKkA6KcDO8/+Ysu2E/CeUmmeEBDvTg==}
+  /@floating-ui/core@1.6.4:
+    resolution: {integrity: sha512-a4IowK4QkXl4SCWTGUR0INAfEOX3wtsYw3rKK5InQEHMGObkR8Xk44qYQD9P4r6HHw0iIfK6GUKECmY8sTkqRA==}
     dependencies:
-      '@floating-ui/utils': 0.2.3
+      '@floating-ui/utils': 0.2.4
     dev: false
 
-  /@floating-ui/dom@1.6.6:
-    resolution: {integrity: sha512-qiTYajAnh3P+38kECeffMSQgbvXty2VB6rS+42iWR4FPIlZjLK84E9qtLnMTLIpPz2znD/TaFqaiavMUrS+Hcw==}
+  /@floating-ui/dom@1.6.7:
+    resolution: {integrity: sha512-wmVfPG5o2xnKDU4jx/m4w5qva9FWHcnZ8BvzEe90D/RpwsJaTAVYPEPdQ8sbr/N8zZTAHlZUTQdqg8ZUbzHmng==}
     dependencies:
-      '@floating-ui/core': 1.6.3
-      '@floating-ui/utils': 0.2.3
+      '@floating-ui/core': 1.6.4
+      '@floating-ui/utils': 0.2.4
     dev: false
 
   /@floating-ui/react-dom@2.1.1(react-dom@18.3.1)(react@18.3.1):
@@ -1482,39 +1482,39 @@ packages:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
     dependencies:
-      '@floating-ui/dom': 1.6.6
+      '@floating-ui/dom': 1.6.7
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
     dev: false
 
-  /@floating-ui/react@0.26.18(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-enDDX09Jpi3kmhcXXpvs+fvRXOfBj1jUV2KF6uDMf5HjS+SOZJzNTFUW71lKbFcxz0BkmQqwbvqdmHIxMq/fyQ==}
+  /@floating-ui/react@0.26.19(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-Jk6zITdjjIvjO/VdQFvpRaD3qPwOHH6AoDHxjhpy+oK4KFgaSP871HYWUAPdnLmx1gQ+w/pB312co3tVml+BXA==}
     peerDependencies:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
     dependencies:
       '@floating-ui/react-dom': 2.1.1(react-dom@18.3.1)(react@18.3.1)
-      '@floating-ui/utils': 0.2.3
+      '@floating-ui/utils': 0.2.4
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       tabbable: 6.2.0
     dev: false
 
-  /@floating-ui/utils@0.2.3:
-    resolution: {integrity: sha512-XGndio0l5/Gvd6CLIABvsav9HHezgDFFhDfHk1bvLfr9ni8dojqLSvBbotJEjmIwNHL7vK4QzBJTdBRoB+c1ww==}
+  /@floating-ui/utils@0.2.4:
+    resolution: {integrity: sha512-dWO2pw8hhi+WrXq1YJy2yCuWoL20PddgGaqTgVe4cOS9Q6qklXCiA1tJEqX6BEwRNSCP84/afac9hd4MS+zEUA==}
     dev: false
 
-  /@headlessui/react@2.1.1(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-808gVNUbRDbDR3GMNPHy+ON0uvR8b9H7IA+Q2UbhOsNCIjgwuwb2Iuv8VPT/1AW0UzLX8g10tN6LhF15GaUJCQ==}
+  /@headlessui/react@2.1.2(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-Kb3hgk9gRNRcTZktBrKdHhF3xFhYkca1Rk6e1/im2ENf83dgN54orMW0uSKTXFnUpZOUFZ+wcY05LlipwgZIFQ==}
     engines: {node: '>=10'}
     peerDependencies:
       react: ^18
       react-dom: ^18
     dependencies:
-      '@floating-ui/react': 0.26.18(react-dom@18.3.1)(react@18.3.1)
+      '@floating-ui/react': 0.26.19(react-dom@18.3.1)(react@18.3.1)
       '@react-aria/focus': 3.17.1(react@18.3.1)
       '@react-aria/interactions': 3.21.3(react@18.3.1)
-      '@tanstack/react-virtual': 3.5.0(react-dom@18.3.1)(react@18.3.1)
+      '@tanstack/react-virtual': 3.8.3(react-dom@18.3.1)(react@18.3.1)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
     dev: false
@@ -2928,19 +2928,19 @@ packages:
       react: 18.3.1
     dev: false
 
-  /@tanstack/react-virtual@3.5.0(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-rtvo7KwuIvqK9zb0VZ5IL7fiJAEnG+0EiFZz8FUOs+2mhGqdGmjKIaT1XU7Zq0eFqL0jonLlhbayJI/J2SA/Bw==}
+  /@tanstack/react-virtual@3.8.3(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-9ICwbDUUzN99CJIGc373i8NLoj6zFTKI2Hlcmo0+lCSAhPQ5mxq4dGOMKmLYoEFyHcGQ64Bd6ZVbnPpM6lNK5w==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
-      '@tanstack/virtual-core': 3.5.0
+      '@tanstack/virtual-core': 3.8.3
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
     dev: false
 
-  /@tanstack/virtual-core@3.5.0:
-    resolution: {integrity: sha512-KnPRCkQTyqhanNC0K63GBG3wA8I+D1fQuVnAvcBF8f13akOKeQp1gSbu6f77zCxhEk727iV5oQnbHLYzHrECLg==}
+  /@tanstack/virtual-core@3.8.3:
+    resolution: {integrity: sha512-vd2A2TnM5lbnWZnHi9B+L2gPtkSeOtJOAw358JqokIH1+v2J7vUAzFVPwB/wrye12RFOurffXu33plm4uQ+JBQ==}
     dev: false
 
   /@types/json5@0.0.29:
