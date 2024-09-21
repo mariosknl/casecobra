@@ -52,7 +52,7 @@ importers:
         version: 5.56.2(react@18.3.1)
       '@uploadthing/react':
         specifier: ^6.5.3
-        version: 6.7.2(next@14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(uploadthing@6.13.2(next@14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(tailwindcss@3.4.11))
+        version: 6.7.2(next@14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(uploadthing@6.13.3(next@14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(tailwindcss@3.4.11))
       class-variance-authority:
         specifier: ^0.7.0
         version: 0.7.0
@@ -100,7 +100,7 @@ importers:
         version: 1.0.7(tailwindcss@3.4.11)
       uploadthing:
         specifier: ^6.10.3
-        version: 6.13.2(next@14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(tailwindcss@3.4.11)
+        version: 6.13.3(next@14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(tailwindcss@3.4.11)
       zod:
         specifier: ^3.23.8
         version: 3.23.8
@@ -712,10 +712,10 @@ packages:
     resolution: {integrity: sha512-/l42B1qxpG6RdfYf343Uw1vmDjeNhneUXtzhojE7pDgfpEypmRhI6j1kr17XCVv4Cgl9HdAiQY2x0GwKm7rWCw==}
     engines: {node: '>=6.9.0'}
 
-  '@effect/schema@0.68.12':
-    resolution: {integrity: sha512-UWJsFXzeYTBQYnftwI1KR2uaxIZ8fk+kffDS7BnJwnGjPPgODq3/AzeoBDSu1MAlnwBKOz+QRdMuSMxrT/pHig==}
+  '@effect/schema@0.68.18':
+    resolution: {integrity: sha512-+knLs36muKsyqIvQTB0itGp5Lwy+5jgEC0G5P8wSsrB6EWGFirS87QjbaFYGbg32l/P51RM+9cPMiAEyICwN6g==}
     peerDependencies:
-      effect: ^3.4.5
+      effect: ^3.4.8
 
   '@emnapi/runtime@1.2.0':
     resolution: {integrity: sha512-bV21/9LQmcQeCPEg3BDFtvwL6cwiTMksYNWQQ4KOxCZikEGalWtenoZ0wCiukJINlGCIi2KXx01g4FoH/LxpzQ==}
@@ -1649,6 +1649,9 @@ packages:
   '@uploadthing/shared@6.7.8':
     resolution: {integrity: sha512-dLNa9GpdeiCHc/Nd0+BfaJ3wXvWIztBAaWIsNNPoaKiU3qhHoQd+5jDVx4oYKYVANqnv9s2CJW7di8Th5xy7Cw==}
 
+  '@uploadthing/shared@6.7.9':
+    resolution: {integrity: sha512-EsHkD31HLBHYB59ZbUVQg1pADtMNf+qjlKwniq+gxXsOOe5heD/zunJStjYWLhwB+C8+SaCPXvM7LiDmv5s/Vw==}
+
   abbrev@2.0.0:
     resolution: {integrity: sha512-6/mh1E2u2YgEsCHdY0Yx5oW+61gZU+1vXaoiHHrpKeuRNNgFvS+/jrwHiQhB5apAf5oB7UB7E19ol2R2LKH8hQ==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
@@ -2020,6 +2023,9 @@ packages:
   effect@3.4.5:
     resolution: {integrity: sha512-aTonOH68tUttSdYwMkiuky3hjgn3pu7yInNaE8rU2EDKQ8zr9Me78WcvWBQKe4u1gvbBH77y9dAKqn98lNIfNQ==}
 
+  effect@3.4.8:
+    resolution: {integrity: sha512-qOQNrSSN3ITuAtARtN2Ldq6E5f42splY9VV18LqpKOXMwQCCEWkXdns4by3D2CJnDXQD2KCE0iGcRR2KowiQIA==}
+
   electron-to-chromium@1.5.23:
     resolution: {integrity: sha512-mBhODedOXg4v5QWwl21DjM5amzjmI1zw9EPrPK/5Wx7C8jt33bpZNrC7OhHUG3pxRtbLpr3W2dXT+Ph1SsfRZA==}
 
@@ -2193,8 +2199,8 @@ packages:
     resolution: {integrity: sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==}
     engines: {node: '>=0.10.0'}
 
-  fast-check@3.21.0:
-    resolution: {integrity: sha512-QpmbiqRFRZ+SIlBJh6xi5d/PgXciUc/xWKc4Vi2RWEHHIRx6oM3f0fWNna++zP9VB5HUBTObUK9gTKQP3vVcrQ==}
+  fast-check@3.22.0:
+    resolution: {integrity: sha512-8HKz3qXqnHYp/VCNn2qfjHdAdcI8zcSqOyX64GOMukp7SL2bfzfeDKjSd+UyECtejccaZv3LcvZTm9YDD22iCQ==}
     engines: {node: '>=8.0.0'}
 
   fast-deep-equal@2.0.1:
@@ -3305,8 +3311,8 @@ packages:
     peerDependencies:
       browserslist: '>= 4.21.0'
 
-  uploadthing@6.13.2:
-    resolution: {integrity: sha512-hrxwOgqKs8siczPloop72drRBiUYaFDHMp45OR/sSAaAbOPyGBmBL88Bi4UWCvgC+aBWCLRxtMEGeoqrfu+OMg==}
+  uploadthing@6.13.3:
+    resolution: {integrity: sha512-MkwKeuo0cVSJ9XHZgEW67qzCmk8QF1mDNf3cDnDC4v0g7o7mnCWgATyYsKSFURQPLnRvysddDxmsaekDOomXvw==}
     engines: {node: '>=18.13.0'}
     peerDependencies:
       '@effect/platform': '*'
@@ -4172,10 +4178,10 @@ snapshots:
       '@babel/helper-validator-identifier': 7.24.7
       to-fast-properties: 2.0.0
 
-  '@effect/schema@0.68.12(effect@3.4.5)':
+  '@effect/schema@0.68.18(effect@3.4.8)':
     dependencies:
-      effect: 3.4.5
-      fast-check: 3.21.0
+      effect: 3.4.8
+      fast-check: 3.22.0
 
   '@emnapi/runtime@1.2.0':
     dependencies:
@@ -5037,14 +5043,14 @@ snapshots:
 
   '@uploadthing/mime-types@0.2.10': {}
 
-  '@uploadthing/react@6.7.2(next@14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(uploadthing@6.13.2(next@14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(tailwindcss@3.4.11))':
+  '@uploadthing/react@6.7.2(next@14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(uploadthing@6.13.3(next@14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(tailwindcss@3.4.11))':
     dependencies:
       '@uploadthing/dropzone': 0.4.1(react@18.3.1)
       '@uploadthing/shared': 6.7.8
       file-selector: 0.6.0
       react: 18.3.1
       tailwind-merge: 2.5.2
-      uploadthing: 6.13.2(next@14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(tailwindcss@3.4.11)
+      uploadthing: 6.13.3(next@14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(tailwindcss@3.4.11)
     optionalDependencies:
       next: 14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     transitivePeerDependencies:
@@ -5056,6 +5062,12 @@ snapshots:
     dependencies:
       '@uploadthing/mime-types': 0.2.10
       effect: 3.4.5
+      std-env: 3.7.0
+
+  '@uploadthing/shared@6.7.9':
+    dependencies:
+      '@uploadthing/mime-types': 0.2.10
+      effect: 3.4.8
       std-env: 3.7.0
 
   abbrev@2.0.0: {}
@@ -5461,6 +5473,8 @@ snapshots:
 
   effect@3.4.5: {}
 
+  effect@3.4.8: {}
+
   electron-to-chromium@1.5.23: {}
 
   emoji-regex@8.0.0: {}
@@ -5591,7 +5605,7 @@ snapshots:
       '@typescript-eslint/parser': 7.2.0(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4)
       eslint: 9.10.0(jiti@1.21.6)
       eslint-import-resolver-node: 0.3.9
-      eslint-import-resolver-typescript: 3.6.1(@typescript-eslint/parser@7.2.0(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@9.10.0(jiti@1.21.6)))(eslint@9.10.0(jiti@1.21.6))
+      eslint-import-resolver-typescript: 3.6.1(@typescript-eslint/parser@7.2.0(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1)(eslint@9.10.0(jiti@1.21.6))
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.2.0(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4))(eslint-import-resolver-typescript@3.6.1)(eslint@9.10.0(jiti@1.21.6))
       eslint-plugin-jsx-a11y: 6.9.0(eslint@9.10.0(jiti@1.21.6))
       eslint-plugin-react: 7.35.0(eslint@9.10.0(jiti@1.21.6))
@@ -5610,12 +5624,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@9.10.0(jiti@1.21.6)))(eslint@9.10.0(jiti@1.21.6)):
+  eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1)(eslint@9.10.0(jiti@1.21.6)):
     dependencies:
       debug: 4.3.6
       enhanced-resolve: 5.17.1
       eslint: 9.10.0(jiti@1.21.6)
-      eslint-module-utils: 2.8.1(@typescript-eslint/parser@7.2.0(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@9.10.0(jiti@1.21.6)))(eslint@9.10.0(jiti@1.21.6)))(eslint@9.10.0(jiti@1.21.6))
+      eslint-module-utils: 2.8.1(@typescript-eslint/parser@7.2.0(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1)(eslint@9.10.0(jiti@1.21.6)))(eslint@9.10.0(jiti@1.21.6))
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.2.0(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4))(eslint-import-resolver-typescript@3.6.1)(eslint@9.10.0(jiti@1.21.6))
       fast-glob: 3.3.2
       get-tsconfig: 4.7.6
@@ -5627,14 +5641,14 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-module-utils@2.8.1(@typescript-eslint/parser@7.2.0(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@9.10.0(jiti@1.21.6)))(eslint@9.10.0(jiti@1.21.6)))(eslint@9.10.0(jiti@1.21.6)):
+  eslint-module-utils@2.8.1(@typescript-eslint/parser@7.2.0(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1)(eslint@9.10.0(jiti@1.21.6)))(eslint@9.10.0(jiti@1.21.6)):
     dependencies:
       debug: 3.2.7
     optionalDependencies:
       '@typescript-eslint/parser': 7.2.0(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4)
       eslint: 9.10.0(jiti@1.21.6)
       eslint-import-resolver-node: 0.3.9
-      eslint-import-resolver-typescript: 3.6.1(@typescript-eslint/parser@7.2.0(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@9.10.0(jiti@1.21.6)))(eslint@9.10.0(jiti@1.21.6))
+      eslint-import-resolver-typescript: 3.6.1(@typescript-eslint/parser@7.2.0(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1)(eslint@9.10.0(jiti@1.21.6))
     transitivePeerDependencies:
       - supports-color
 
@@ -5648,7 +5662,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 9.10.0(jiti@1.21.6)
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.8.1(@typescript-eslint/parser@7.2.0(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@9.10.0(jiti@1.21.6)))(eslint@9.10.0(jiti@1.21.6)))(eslint@9.10.0(jiti@1.21.6))
+      eslint-module-utils: 2.8.1(@typescript-eslint/parser@7.2.0(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0(eslint@9.10.0(jiti@1.21.6))(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1)(eslint@9.10.0(jiti@1.21.6)))(eslint@9.10.0(jiti@1.21.6))
       hasown: 2.0.2
       is-core-module: 2.15.1
       is-glob: 4.0.3
@@ -5779,7 +5793,7 @@ snapshots:
 
   esutils@2.0.3: {}
 
-  fast-check@3.21.0:
+  fast-check@3.22.0:
     dependencies:
       pure-rand: 6.1.0
 
@@ -6941,13 +6955,13 @@ snapshots:
       escalade: 3.2.0
       picocolors: 1.1.0
 
-  uploadthing@6.13.2(next@14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(tailwindcss@3.4.11):
+  uploadthing@6.13.3(next@14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(tailwindcss@3.4.11):
     dependencies:
-      '@effect/schema': 0.68.12(effect@3.4.5)
+      '@effect/schema': 0.68.18(effect@3.4.8)
       '@uploadthing/mime-types': 0.2.10
-      '@uploadthing/shared': 6.7.8
+      '@uploadthing/shared': 6.7.9
       consola: 3.2.3
-      effect: 3.4.5
+      effect: 3.4.8
       std-env: 3.7.0
     optionalDependencies:
       next: 14.2.7(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
