@@ -82,7 +82,7 @@ importers:
         version: 0.2.0(react@18.3.1)
       react-dropzone:
         specifier: ^14.2.3
-        version: 14.2.3(react@18.3.1)
+        version: 14.2.9(react@18.3.1)
       react-rnd:
         specifier: ^10.4.10
         version: 10.4.12(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1700,8 +1700,8 @@ packages:
   ast-types-flow@0.0.8:
     resolution: {integrity: sha512-OH/2E5Fg20h2aPrbe+QL8JZQFko0YZaF+j4mnQ7BGhfavO7OpSLa8a0y9sBwomHdSbkhTS8TQNayBfnW5DwbvQ==}
 
-  attr-accept@2.2.2:
-    resolution: {integrity: sha512-7prDjvt9HmqiZ0cl5CRjtS84sEyhsHP2coDkaZKRKVfCDo9s7iw7ChVmar78Gu9pC4SoR/28wFu/G5JJhTnqEg==}
+  attr-accept@2.2.4:
+    resolution: {integrity: sha512-2pA6xFIbdTUDCAwjN8nQwI+842VwzbDUXO2IYlpPXQIORgKnavorcr4Ce3rwh+zsNg9zK7QPsdvDj3Lum4WX4w==}
     engines: {node: '>=4'}
 
   available-typed-arrays@1.0.7:
@@ -2868,8 +2868,8 @@ packages:
       react: '>= 16.3.0'
       react-dom: '>= 16.3.0'
 
-  react-dropzone@14.2.3:
-    resolution: {integrity: sha512-O3om8I+PkFKbxCukfIR3QAGftYXDZfOE2N1mr/7qebQJHs7U+/RSL/9xomJNpRg9kM5h9soQSdf0Gc7OHF5Fug==}
+  react-dropzone@14.2.9:
+    resolution: {integrity: sha512-jRZsMC7h48WONsOLHcmhyn3cRWJoIPQjPApvt/sJVfnYaB3Qltn025AoRTTJaj4WdmmgmLl6tUQg1s0wOhpodQ==}
     engines: {node: '>= 10.13'}
     peerDependencies:
       react: '>= 16.8 || 18.0.0'
@@ -5074,7 +5074,7 @@ snapshots:
 
   ast-types-flow@0.0.8: {}
 
-  attr-accept@2.2.2: {}
+  attr-accept@2.2.4: {}
 
   available-typed-arrays@1.0.7:
     dependencies:
@@ -6374,9 +6374,9 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  react-dropzone@14.2.3(react@18.3.1):
+  react-dropzone@14.2.9(react@18.3.1):
     dependencies:
-      attr-accept: 2.2.2
+      attr-accept: 2.2.4
       file-selector: 0.6.0
       prop-types: 15.8.1
       react: 18.3.1
