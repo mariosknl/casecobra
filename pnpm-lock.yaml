@@ -85,7 +85,7 @@ importers:
         version: 14.3.5(react@19.0.0)
       react-rnd:
         specifier: ^10.4.10
-        version: 10.4.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        version: 10.4.14(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       sharp:
         specifier: 0.33.5
         version: 0.33.5
@@ -2862,11 +2862,11 @@ packages:
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
-  re-resizable@6.10.0:
-    resolution: {integrity: sha512-hysSK0xmA5nz24HBVztlk4yCqCLCvS32E6ZpWxVKop9x3tqCa4yAj1++facrmkOf62JsJHjmjABdKxXofYioCw==}
+  re-resizable@6.10.3:
+    resolution: {integrity: sha512-zvWb7X3RJMA4cuSrqoxgs3KR+D+pEXnGrD2FAD6BMYAULnZsSF4b7AOVyG6pC3VVNVOtlagGDCDmZSwWLjjBBw==}
     peerDependencies:
-      react: ^16.13.1 || ^17.0.0 || ^18.0.0
-      react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
+      react: ^16.13.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
   react-dom-confetti@0.2.0:
     resolution: {integrity: sha512-+XRTi+WlCrcRN2dTjdEopOaPFtS7hpaHRRQ0sHiVRGqpchKz4QVh3i+6eLEEpNHYpN2VgPmhjvJ/vnjmUYhlIQ==}
@@ -2916,8 +2916,8 @@ packages:
       '@types/react':
         optional: true
 
-  react-rnd@10.4.13:
-    resolution: {integrity: sha512-Vgbf0iihspcQ6nkaFhpOGWfmnuVbhkhoB0hBbYl8aRDA4horsQHESc4E1z7O/P27kFFjK2aqM0u5CGzfr9gEZA==}
+  react-rnd@10.4.14:
+    resolution: {integrity: sha512-NLGc3IymymumPfHy3DXiHNIMOiTlj6xBNb2boHqrtwCgYDasNarpg8tdUY36JlJbrs0E4BvjYBkfEGqUPBsukg==}
     peerDependencies:
       react: '>=16.3.0'
       react-dom: '>=16.3.0'
@@ -3198,9 +3198,6 @@ packages:
 
   tslib@2.6.2:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
-
-  tslib@2.7.0:
-    resolution: {integrity: sha512-gLXCKdN1/j47AiHiOkJN69hJmcbGTHI0ImLmbYLHykhgeN0jVGola9yVjFgzCUklsZQMW55o+dW7IXv3RCXDzA==}
 
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
@@ -5061,7 +5058,7 @@ snapshots:
 
   aria-hidden@1.2.4:
     dependencies:
-      tslib: 2.7.0
+      tslib: 2.8.1
 
   aria-query@5.1.3:
     dependencies:
@@ -6380,7 +6377,7 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  re-resizable@6.10.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+  re-resizable@6.10.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
@@ -6419,7 +6416,7 @@ snapshots:
     dependencies:
       react: 19.0.0
       react-style-singleton: 2.2.1(@types/react@19.0.2)(react@19.0.0)
-      tslib: 2.7.0
+      tslib: 2.8.1
     optionalDependencies:
       '@types/react': 19.0.2
 
@@ -6428,15 +6425,15 @@ snapshots:
       react: 19.0.0
       react-remove-scroll-bar: 2.3.6(@types/react@19.0.2)(react@19.0.0)
       react-style-singleton: 2.2.1(@types/react@19.0.2)(react@19.0.0)
-      tslib: 2.7.0
+      tslib: 2.8.1
       use-callback-ref: 1.3.2(@types/react@19.0.2)(react@19.0.0)
       use-sidecar: 1.1.2(@types/react@19.0.2)(react@19.0.0)
     optionalDependencies:
       '@types/react': 19.0.2
 
-  react-rnd@10.4.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+  react-rnd@10.4.14(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
-      re-resizable: 6.10.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      re-resizable: 6.10.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
       react-draggable: 4.4.6(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -6447,7 +6444,7 @@ snapshots:
       get-nonce: 1.0.1
       invariant: 2.2.4
       react: 19.0.0
-      tslib: 2.7.0
+      tslib: 2.8.1
     optionalDependencies:
       '@types/react': 19.0.2
 
@@ -6791,8 +6788,6 @@ snapshots:
 
   tslib@2.6.2: {}
 
-  tslib@2.7.0: {}
-
   tslib@2.8.1: {}
 
   type-check@0.4.0:
@@ -6879,7 +6874,7 @@ snapshots:
   use-callback-ref@1.3.2(@types/react@19.0.2)(react@19.0.0):
     dependencies:
       react: 19.0.0
-      tslib: 2.7.0
+      tslib: 2.8.1
     optionalDependencies:
       '@types/react': 19.0.2
 
@@ -6887,7 +6882,7 @@ snapshots:
     dependencies:
       detect-node-es: 1.1.0
       react: 19.0.0
-      tslib: 2.7.0
+      tslib: 2.8.1
     optionalDependencies:
       '@types/react': 19.0.2
 
