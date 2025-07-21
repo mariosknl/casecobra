@@ -91,7 +91,7 @@ importers:
         version: 0.34.3
       stripe:
         specifier: ^18.0.0
-        version: 18.2.1(@types/node@22.16.5)
+        version: 18.3.0(@types/node@22.16.5)
       tailwind-merge:
         specifier: ^3.0.0
         version: 3.3.1
@@ -2594,8 +2594,8 @@ packages:
     resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==}
     engines: {node: '>=8'}
 
-  stripe@18.2.1:
-    resolution: {integrity: sha512-GwB1B7WSwEBzW4dilgyJruUYhbGMscrwuyHsPUmSRKrGHZ5poSh2oU9XKdii5BFVJzXHn35geRvGJ6R8bYcp8w==}
+  stripe@18.3.0:
+    resolution: {integrity: sha512-FkxrTUUcWB4CVN2yzgsfF/YHD6WgYHduaa7VmokCy5TLCgl5UNJkwortxcedrxSavQ8Qfa4Ir4JxcbIYiBsyLg==}
     engines: {node: '>=12.*'}
     peerDependencies:
       '@types/node': '>=12.x.x'
@@ -5578,7 +5578,7 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  stripe@18.2.1(@types/node@22.16.5):
+  stripe@18.3.0(@types/node@22.16.5):
     dependencies:
       qs: 6.14.0
     optionalDependencies:
