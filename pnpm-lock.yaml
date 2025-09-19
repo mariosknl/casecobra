@@ -52,7 +52,7 @@ importers:
         version: 5.89.0(react@19.1.1)
       '@uploadthing/react':
         specifier: ^7.0.0
-        version: 7.3.3(next@15.5.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(react@19.1.1)(uploadthing@7.7.3(express@5.1.0)(next@15.5.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(tailwindcss@4.1.11))
+        version: 7.3.3(next@15.5.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(react@19.1.1)(uploadthing@7.7.3(express@5.1.0)(next@15.5.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(tailwindcss@4.1.13))
       class-variance-authority:
         specifier: ^0.7.0
         version: 0.7.1
@@ -97,10 +97,10 @@ importers:
         version: 3.3.1
       tailwindcss-animate:
         specifier: ^1.0.7
-        version: 1.0.7(tailwindcss@4.1.11)
+        version: 1.0.7(tailwindcss@4.1.13)
       uploadthing:
         specifier: ^7.0.0
-        version: 7.7.3(express@5.1.0)(next@15.5.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(tailwindcss@4.1.11)
+        version: 7.7.3(express@5.1.0)(next@15.5.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(tailwindcss@4.1.13)
       zod:
         specifier: ^4.0.0
         version: 4.0.17
@@ -125,7 +125,7 @@ importers:
         version: 8.5.6
       tailwindcss:
         specifier: ^4.0.0
-        version: 4.1.11
+        version: 4.1.13
       typescript:
         specifier: ^5
         version: 5.8.3
@@ -2665,8 +2665,8 @@ packages:
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
 
-  tailwindcss@4.1.11:
-    resolution: {integrity: sha512-2E9TBm6MDD/xKYe+dvJZAmg3yxIEDNRc0jwlNyDg/4Fil2QcSLjFKGVff0lAf1jjeaArlG/M75Ey/EYr/OJtBA==}
+  tailwindcss@4.1.13:
+    resolution: {integrity: sha512-i+zidfmTqtwquj4hMEwdjshYYgMbOrPzb9a0M3ZgNa0JMoZeFC6bxZvO8yr8ozS6ix2SDz0+mvryPeBs2TFE+w==}
 
   tapable@2.2.1:
     resolution: {integrity: sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==}
@@ -3860,12 +3860,12 @@ snapshots:
 
   '@uploadthing/mime-types@0.3.6': {}
 
-  '@uploadthing/react@7.3.3(next@15.5.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(react@19.1.1)(uploadthing@7.7.3(express@5.1.0)(next@15.5.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(tailwindcss@4.1.11))':
+  '@uploadthing/react@7.3.3(next@15.5.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(react@19.1.1)(uploadthing@7.7.3(express@5.1.0)(next@15.5.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(tailwindcss@4.1.13))':
     dependencies:
       '@uploadthing/shared': 7.1.10
       file-selector: 0.6.0
       react: 19.1.1
-      uploadthing: 7.7.3(express@5.1.0)(next@15.5.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(tailwindcss@4.1.11)
+      uploadthing: 7.7.3(express@5.1.0)(next@15.5.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(tailwindcss@4.1.13)
     optionalDependencies:
       next: 15.5.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
 
@@ -5668,11 +5668,11 @@ snapshots:
 
   tailwind-merge@3.3.1: {}
 
-  tailwindcss-animate@1.0.7(tailwindcss@4.1.11):
+  tailwindcss-animate@1.0.7(tailwindcss@4.1.13):
     dependencies:
-      tailwindcss: 4.1.11
+      tailwindcss: 4.1.13
 
-  tailwindcss@4.1.11: {}
+  tailwindcss@4.1.13: {}
 
   tapable@2.2.1: {}
 
@@ -5764,7 +5764,7 @@ snapshots:
   unpipe@1.0.0:
     optional: true
 
-  uploadthing@7.7.3(express@5.1.0)(next@15.5.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(tailwindcss@4.1.11):
+  uploadthing@7.7.3(express@5.1.0)(next@15.5.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(tailwindcss@4.1.13):
     dependencies:
       '@effect/platform': 0.85.2(effect@3.16.8)
       '@standard-schema/spec': 1.0.0-beta.4
@@ -5774,7 +5774,7 @@ snapshots:
     optionalDependencies:
       express: 5.1.0
       next: 15.5.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
-      tailwindcss: 4.1.11
+      tailwindcss: 4.1.13
 
   uri-js@4.4.1:
     dependencies:
