@@ -46,7 +46,7 @@ importers:
         version: 1.2.15(@types/react-dom@19.1.9(@types/react@19.1.13))(@types/react@19.1.13)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       '@react-email/components':
         specifier: ^0.5.0
-        version: 0.5.3(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 0.5.7(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       '@tanstack/react-query':
         specifier: ^5.37.1
         version: 5.89.0(react@19.1.1)
@@ -920,8 +920,8 @@ packages:
     peerDependencies:
       react: ^18.0 || ^19.0 || ^19.0.0-rc
 
-  '@react-email/components@0.5.3':
-    resolution: {integrity: sha512-8G5vsoMehuGOT4cDqaYLdpagtqCYPl4vThXNylClxO6SrN2w9Mh1+i2RNGj/rdqh/woamHORjlXMYCA/kzDMew==}
+  '@react-email/components@0.5.7':
+    resolution: {integrity: sha512-ECyVoyDcev2FSQ7C0buXaIJ0+6MRDXNUbCOZwBRrlLdCCRjap2b4+MHrYSTXFzo5kqfjjRoyo/2PbJXFQni67g==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       react: ^18.0 || ^19.0 || ^19.0.0-rc
@@ -973,8 +973,8 @@ packages:
     peerDependencies:
       react: ^18.0 || ^19.0 || ^19.0.0-rc
 
-  '@react-email/markdown@0.0.15':
-    resolution: {integrity: sha512-UQA9pVm5sbflgtg3EX3FquUP4aMBzmLReLbGJ6DZQZnAskBF36aI56cRykDq1o+1jT+CKIK1CducPYziaXliag==}
+  '@react-email/markdown@0.0.16':
+    resolution: {integrity: sha512-KSUHmoBMYhvc6iGwlIDkm0DRGbGQ824iNjLMCJsBVUoKHGQYs7F/N3b1tnS1YzRUX+GwHIexSsHuIUEi1m+8OQ==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       react: ^18.0 || ^19.0 || ^19.0.0-rc
@@ -985,8 +985,8 @@ packages:
     peerDependencies:
       react: ^18.0 || ^19.0 || ^19.0.0-rc
 
-  '@react-email/render@1.2.3':
-    resolution: {integrity: sha512-qu3XYNkHGao3teJexVD5CrcgFkNLrzbZvpZN17a7EyQYUN3kHkTkE9saqY4VbvGx6QoNU3p8rsk/Xm++D/+pTw==}
+  '@react-email/render@1.4.0':
+    resolution: {integrity: sha512-ZtJ3noggIvW1ZAryoui95KJENKdCzLmN5F7hyZY1F/17B1vwzuxHB7YkuCg0QqHjDivc5axqYEYdIOw4JIQdUw==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       react: ^18.0 || ^19.0 || ^19.0.0-rc
@@ -1360,9 +1360,9 @@ packages:
     resolution: {integrity: sha512-5IKcdX0nnYavi6G7TtOhwkYzyjfJlatbjMjuLSfE2kYT5pMDOilZ4OvMhi637CcDICTmz3wARPoyhqyX1Y+XvA==}
     engines: {node: ^14.18.0 || >=16.10.0}
 
-  content-disposition@1.0.0:
-    resolution: {integrity: sha512-Au9nRL8VNUut/XSzbQA38+M78dzP4D+eqg3gfJHMIHHYa3bg067xj1KxMUWj+VULbiZMowKngFFbKczUrNJ1mg==}
-    engines: {node: '>= 0.6'}
+  content-disposition@1.0.1:
+    resolution: {integrity: sha512-oIXISMynqSqm241k6kcQ5UwttDILMK4BiurCfGEREw6+X9jkkpEe5T9FZaApyLGGOnFuyMWZpdolTXMtvEJ08Q==}
+    engines: {node: '>=18'}
 
   content-type@1.0.5:
     resolution: {integrity: sha512-nTjqfcBFEipKdXCv4YDQWCfmcLZKm81ldF0pAopTvyrFGVbcR6P/VAAd5G7N+0tTr8QqiU0tFadD6FK4NtJwOA==}
@@ -1475,8 +1475,8 @@ packages:
     resolution: {integrity: sha512-cgwlv/1iFQiFnU96XXgROh8xTeetsnJiDsTc7TYCLFd9+/WNkIqPTxiM/8pSd8VIrhXGTf1Ny1q1hquVqDJB5w==}
     engines: {node: '>= 4'}
 
-  domutils@3.1.0:
-    resolution: {integrity: sha512-H78uMmQtI2AhgDJjWeQmHwJJ2bLPD3GMmO7Zja/ZZh84wkm+4ut+IUnUdRa8uCGX88DiVx1j6FRe1XfxEgjEZA==}
+  domutils@3.2.2:
+    resolution: {integrity: sha512-6kZKyUajlDuqlHKVX1w7gyslj9MPIXzIFiz/rGu35uC1wMi+kMhQwGhl4lt9unC9Vb9INnY9Z3/ZA3+FhASLaw==}
 
   dotenv@16.6.1:
     resolution: {integrity: sha512-uBq4egWHTcTt33a72vpSG0z3HnPuIl6NqYcTrKEg2azoEyl2hpW0zqlxysq2pK9HlDIHyHyakeYaYnSAwd8bow==}
@@ -2060,19 +2060,14 @@ packages:
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
-  marked@7.0.4:
-    resolution: {integrity: sha512-t8eP0dXRJMtMvBojtkcsA7n48BkauktUKzfkPSCq85ZMTJ0v76Rke4DYz01omYpPTUh4p/f7HePgRo3ebG8+QQ==}
-    engines: {node: '>= 16'}
+  marked@15.0.12:
+    resolution: {integrity: sha512-8dD6FusOQSrpv9Z1rdNMdlSgQOIP880DHqnohobOmYLElGEqAL/JvxvuxZO16r4HtjTlfPRDC1hbvxC9dPN2nA==}
+    engines: {node: '>= 18'}
     hasBin: true
 
   math-intrinsics@1.1.0:
     resolution: {integrity: sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==}
     engines: {node: '>= 0.4'}
-
-  md-to-react-email@5.0.5:
-    resolution: {integrity: sha512-OvAXqwq57uOk+WZqFFNCMZz8yDp8BD3WazW1wAKHUrPbbdr89K9DWS6JXY09vd9xNdPNeurI8DU/X4flcfaD8A==}
-    peerDependencies:
-      react: ^18.0 || ^19.0
 
   media-typer@1.1.0:
     resolution: {integrity: sha512-aisnrDP4GNe06UcKFnV5bfMNPBUw4jsLGaWwWfnH3v02GnBuXX2MCVn5RbrWo0j3pczUilYblq7fQ7Nw2t5XKw==}
@@ -2290,8 +2285,8 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  prettier@3.5.3:
-    resolution: {integrity: sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==}
+  prettier@3.6.2:
+    resolution: {integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -2457,9 +2452,6 @@ packages:
   safe-array-concat@1.1.3:
     resolution: {integrity: sha512-AURm5f0jYEOydBj7VQlVvDrjeFgthDdEF5H1dP+6mNpoXOMo1quQqJ4wvJDyRZ9+pO3kGWoOdmV08cSv2aJV6Q==}
     engines: {node: '>=0.4'}
-
-  safe-buffer@5.2.1:
-    resolution: {integrity: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==}
 
   safe-push-apply@1.0.0:
     resolution: {integrity: sha512-iKE9w/Z7xCzUMIZqdBsp6pEQvwuEebH4vdpjcDWnyzaI6yl6O9FHvVpmGelvEHNsoY6wGblkxR6Zty/h00WiSA==}
@@ -3534,7 +3526,7 @@ snapshots:
     dependencies:
       react: 19.1.1
 
-  '@react-email/components@0.5.3(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
+  '@react-email/components@0.5.7(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
       '@react-email/body': 0.1.0(react@19.1.1)
       '@react-email/button': 0.2.0(react@19.1.1)
@@ -3549,9 +3541,9 @@ snapshots:
       '@react-email/html': 0.0.11(react@19.1.1)
       '@react-email/img': 0.0.11(react@19.1.1)
       '@react-email/link': 0.0.12(react@19.1.1)
-      '@react-email/markdown': 0.0.15(react@19.1.1)
+      '@react-email/markdown': 0.0.16(react@19.1.1)
       '@react-email/preview': 0.0.13(react@19.1.1)
-      '@react-email/render': 1.2.3(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+      '@react-email/render': 1.4.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       '@react-email/row': 0.0.12(react@19.1.1)
       '@react-email/section': 0.0.16(react@19.1.1)
       '@react-email/tailwind': 1.2.2(react@19.1.1)
@@ -3592,19 +3584,19 @@ snapshots:
     dependencies:
       react: 19.1.1
 
-  '@react-email/markdown@0.0.15(react@19.1.1)':
+  '@react-email/markdown@0.0.16(react@19.1.1)':
     dependencies:
-      md-to-react-email: 5.0.5(react@19.1.1)
+      marked: 15.0.12
       react: 19.1.1
 
   '@react-email/preview@0.0.13(react@19.1.1)':
     dependencies:
       react: 19.1.1
 
-  '@react-email/render@1.2.3(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
+  '@react-email/render@1.4.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
       html-to-text: 9.0.5
-      prettier: 3.5.3
+      prettier: 3.6.2
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
       react-promise-suspense: 0.3.4
@@ -4041,9 +4033,7 @@ snapshots:
 
   consola@3.4.2: {}
 
-  content-disposition@1.0.0:
-    dependencies:
-      safe-buffer: 5.2.1
+  content-disposition@1.0.1:
     optional: true
 
   content-type@1.0.5:
@@ -4142,7 +4132,7 @@ snapshots:
     dependencies:
       domelementtype: 2.3.0
 
-  domutils@3.1.0:
+  domutils@3.2.2:
     dependencies:
       dom-serializer: 2.0.0
       domelementtype: 2.3.0
@@ -4490,7 +4480,7 @@ snapshots:
     dependencies:
       accepts: 2.0.0
       body-parser: 2.2.0
-      content-disposition: 1.0.0
+      content-disposition: 1.0.1
       content-type: 1.0.5
       cookie: 0.7.2
       cookie-signature: 1.2.2
@@ -4721,7 +4711,7 @@ snapshots:
     dependencies:
       domelementtype: 2.3.0
       domhandler: 5.0.3
-      domutils: 3.1.0
+      domutils: 3.2.2
       entities: 4.5.0
 
   http-errors@2.0.0:
@@ -4936,14 +4926,9 @@ snapshots:
     dependencies:
       react: 19.1.1
 
-  marked@7.0.4: {}
+  marked@15.0.12: {}
 
   math-intrinsics@1.1.0: {}
-
-  md-to-react-email@5.0.5(react@19.1.1):
-    dependencies:
-      marked: 7.0.4
-      react: 19.1.1
 
   media-typer@1.1.0:
     optional: true
@@ -5177,7 +5162,7 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier@3.5.3: {}
+  prettier@3.6.2: {}
 
   prisma@6.17.1(typescript@5.9.3):
     dependencies:
@@ -5362,9 +5347,6 @@ snapshots:
       get-intrinsic: 1.3.0
       has-symbols: 1.1.0
       isarray: 2.0.5
-
-  safe-buffer@5.2.1:
-    optional: true
 
   safe-push-apply@1.0.0:
     dependencies:
