@@ -52,7 +52,7 @@ importers:
         version: 5.89.0(react@19.1.1)
       '@uploadthing/react':
         specifier: ^7.0.0
-        version: 7.3.3(next@15.5.6(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(react@19.1.1)(uploadthing@7.7.4(express@5.1.0)(next@15.5.6(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(tailwindcss@4.1.13))
+        version: 7.3.3(next@15.5.6(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(react@19.1.1)(uploadthing@7.7.4(express@5.1.0)(next@15.5.6(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(tailwindcss@4.1.17))
       class-variance-authority:
         specifier: ^0.7.0
         version: 0.7.1
@@ -97,10 +97,10 @@ importers:
         version: 3.3.1
       tailwindcss-animate:
         specifier: ^1.0.7
-        version: 1.0.7(tailwindcss@4.1.13)
+        version: 1.0.7(tailwindcss@4.1.17)
       uploadthing:
         specifier: ^7.0.0
-        version: 7.7.4(express@5.1.0)(next@15.5.6(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(tailwindcss@4.1.13)
+        version: 7.7.4(express@5.1.0)(next@15.5.6(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(tailwindcss@4.1.17)
       zod:
         specifier: ^4.0.0
         version: 4.1.12
@@ -125,7 +125,7 @@ importers:
         version: 8.5.6
       tailwindcss:
         specifier: ^4.0.0
-        version: 4.1.13
+        version: 4.1.17
       typescript:
         specifier: ^5
         version: 5.9.3
@@ -1360,9 +1360,9 @@ packages:
     resolution: {integrity: sha512-5IKcdX0nnYavi6G7TtOhwkYzyjfJlatbjMjuLSfE2kYT5pMDOilZ4OvMhi637CcDICTmz3wARPoyhqyX1Y+XvA==}
     engines: {node: ^14.18.0 || >=16.10.0}
 
-  content-disposition@1.0.0:
-    resolution: {integrity: sha512-Au9nRL8VNUut/XSzbQA38+M78dzP4D+eqg3gfJHMIHHYa3bg067xj1KxMUWj+VULbiZMowKngFFbKczUrNJ1mg==}
-    engines: {node: '>= 0.6'}
+  content-disposition@1.0.1:
+    resolution: {integrity: sha512-oIXISMynqSqm241k6kcQ5UwttDILMK4BiurCfGEREw6+X9jkkpEe5T9FZaApyLGGOnFuyMWZpdolTXMtvEJ08Q==}
+    engines: {node: '>=18'}
 
   content-type@1.0.5:
     resolution: {integrity: sha512-nTjqfcBFEipKdXCv4YDQWCfmcLZKm81ldF0pAopTvyrFGVbcR6P/VAAd5G7N+0tTr8QqiU0tFadD6FK4NtJwOA==}
@@ -2458,9 +2458,6 @@ packages:
     resolution: {integrity: sha512-AURm5f0jYEOydBj7VQlVvDrjeFgthDdEF5H1dP+6mNpoXOMo1quQqJ4wvJDyRZ9+pO3kGWoOdmV08cSv2aJV6Q==}
     engines: {node: '>=0.4'}
 
-  safe-buffer@5.2.1:
-    resolution: {integrity: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==}
-
   safe-push-apply@1.0.0:
     resolution: {integrity: sha512-iKE9w/Z7xCzUMIZqdBsp6pEQvwuEebH4vdpjcDWnyzaI6yl6O9FHvVpmGelvEHNsoY6wGblkxR6Zty/h00WiSA==}
     engines: {node: '>= 0.4'}
@@ -2630,8 +2627,8 @@ packages:
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
 
-  tailwindcss@4.1.13:
-    resolution: {integrity: sha512-i+zidfmTqtwquj4hMEwdjshYYgMbOrPzb9a0M3ZgNa0JMoZeFC6bxZvO8yr8ozS6ix2SDz0+mvryPeBs2TFE+w==}
+  tailwindcss@4.1.17:
+    resolution: {integrity: sha512-j9Ee2YjuQqYT9bbRTfTZht9W/ytp5H+jJpZKiYdP/bpnXARAuELt9ofP0lPnmHjbga7SNQIxdTAXCmtKVYjN+Q==}
 
   tapable@2.2.1:
     resolution: {integrity: sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==}
@@ -3815,12 +3812,12 @@ snapshots:
 
   '@uploadthing/mime-types@0.3.6': {}
 
-  '@uploadthing/react@7.3.3(next@15.5.6(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(react@19.1.1)(uploadthing@7.7.4(express@5.1.0)(next@15.5.6(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(tailwindcss@4.1.13))':
+  '@uploadthing/react@7.3.3(next@15.5.6(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(react@19.1.1)(uploadthing@7.7.4(express@5.1.0)(next@15.5.6(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(tailwindcss@4.1.17))':
     dependencies:
       '@uploadthing/shared': 7.1.10
       file-selector: 0.6.0
       react: 19.1.1
-      uploadthing: 7.7.4(express@5.1.0)(next@15.5.6(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(tailwindcss@4.1.13)
+      uploadthing: 7.7.4(express@5.1.0)(next@15.5.6(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(tailwindcss@4.1.17)
     optionalDependencies:
       next: 15.5.6(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
 
@@ -4041,9 +4038,7 @@ snapshots:
 
   consola@3.4.2: {}
 
-  content-disposition@1.0.0:
-    dependencies:
-      safe-buffer: 5.2.1
+  content-disposition@1.0.1:
     optional: true
 
   content-type@1.0.5:
@@ -4490,7 +4485,7 @@ snapshots:
     dependencies:
       accepts: 2.0.0
       body-parser: 2.2.0
-      content-disposition: 1.0.0
+      content-disposition: 1.0.1
       content-type: 1.0.5
       cookie: 0.7.2
       cookie-signature: 1.2.2
@@ -5363,9 +5358,6 @@ snapshots:
       has-symbols: 1.1.0
       isarray: 2.0.5
 
-  safe-buffer@5.2.1:
-    optional: true
-
   safe-push-apply@1.0.0:
     dependencies:
       es-errors: 1.3.0
@@ -5592,11 +5584,11 @@ snapshots:
 
   tailwind-merge@3.3.1: {}
 
-  tailwindcss-animate@1.0.7(tailwindcss@4.1.13):
+  tailwindcss-animate@1.0.7(tailwindcss@4.1.17):
     dependencies:
-      tailwindcss: 4.1.13
+      tailwindcss: 4.1.17
 
-  tailwindcss@4.1.13: {}
+  tailwindcss@4.1.17: {}
 
   tapable@2.2.1: {}
 
@@ -5688,7 +5680,7 @@ snapshots:
   unpipe@1.0.0:
     optional: true
 
-  uploadthing@7.7.4(express@5.1.0)(next@15.5.6(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(tailwindcss@4.1.13):
+  uploadthing@7.7.4(express@5.1.0)(next@15.5.6(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(tailwindcss@4.1.17):
     dependencies:
       '@effect/platform': 0.90.3(effect@3.17.7)
       '@standard-schema/spec': 1.0.0-beta.4
@@ -5698,7 +5690,7 @@ snapshots:
     optionalDependencies:
       express: 5.1.0
       next: 15.5.6(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
-      tailwindcss: 4.1.13
+      tailwindcss: 4.1.17
 
   uri-js@4.4.1:
     dependencies:
