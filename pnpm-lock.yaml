@@ -82,7 +82,7 @@ importers:
         version: 0.2.0(react@19.2.3)
       react-dropzone:
         specifier: ^14.2.3
-        version: 14.3.8(react@19.2.3)
+        version: 14.4.0(react@19.2.3)
       react-rnd:
         specifier: ^10.4.10
         version: 10.5.2(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -2722,8 +2722,8 @@ packages:
       react: '>= 16.3.0'
       react-dom: '>= 16.3.0'
 
-  react-dropzone@14.3.8:
-    resolution: {integrity: sha512-sBgODnq+lcA4P296DY4wacOZz3JFpD99fp+hb//iBO2HHnyeZU3FwWyXJ6salNpqQdsZrgMrotuko/BdJMV8Ug==}
+  react-dropzone@14.4.0:
+    resolution: {integrity: sha512-8VvsHqg9WGAr+wAnP0oVErK5HOwAoTOzRsxLPzbBXrtXtFfukkxMyuvdI/lJ+5OxtsrzmvWE5Eoo3Y4hMsaxpA==}
     engines: {node: '>= 10.13'}
     peerDependencies:
       react: '>= 16.8 || 18.0.0'
@@ -5866,7 +5866,7 @@ snapshots:
       react: 19.2.3
       react-dom: 19.2.3(react@19.2.3)
 
-  react-dropzone@14.3.8(react@19.2.3):
+  react-dropzone@14.4.0(react@19.2.3):
     dependencies:
       attr-accept: 2.2.5
       file-selector: 2.1.2
