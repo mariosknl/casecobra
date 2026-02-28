@@ -91,7 +91,7 @@ importers:
         version: 0.34.5
       stripe:
         specifier: ^20.0.0
-        version: 20.3.0(@types/node@24.10.15)
+        version: 20.4.0(@types/node@24.10.15)
       tailwind-merge:
         specifier: ^3.0.0
         version: 3.4.0
@@ -6069,7 +6069,7 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  stripe@20.3.0(@types/node@24.10.15):
+  stripe@20.4.0(@types/node@24.10.15):
     optionalDependencies:
       '@types/node': 24.10.15
 
