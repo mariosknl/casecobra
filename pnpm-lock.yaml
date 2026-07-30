@@ -91,7 +91,7 @@ importers:
         version: 0.35.3(@types/node@24.12.4)
       stripe:
         specifier: ^22.0.0
-        version: 22.3.2(@types/node@24.12.4)
+        version: 22.4.0(@types/node@24.12.4)
       tailwind-merge:
         specifier: ^3.0.0
         version: 3.6.0
@@ -3148,8 +3148,8 @@ packages:
     resolution: {integrity: sha512-vavAMRXOgBVNF6nyEEmL3DBK19iRpDcoIwW+swQ+CbGiu7lju6t+JklA1MHweoWtadgt4ISVUsXLyDq34ddcwA==}
     engines: {node: '>=4'}
 
-  stripe@22.3.2:
-    resolution: {integrity: sha512-O13QOvgEIQvDlTy6Ubb5kB980wpbhmoZNsgCXKILjCMZS67f+bW+6w99k3gnSi/N1lkryoj1WYdpGT5Wc5edjg==}
+  stripe@22.4.0:
+    resolution: {integrity: sha512-LVJ+tcSYeqOSnXr3i+Kz2tZ7y0crLLdP2uwD/4wccrmEVyn0g/Heo0pF7as7rxS/sOjJzrb1lxgZY0Y0Dx1pSA==}
     engines: {node: '>=18'}
     peerDependencies:
       '@types/node': '>=18'
@@ -4733,7 +4733,7 @@ snapshots:
       '@typescript-eslint/visitor-keys': 8.53.0
       debug: 4.4.3
       minimatch: 9.0.9
-      semver: 7.8.4
+      semver: 7.8.5
       tinyglobby: 0.2.15
       ts-api-utils: 2.4.0(typescript@6.0.3)
       typescript: 6.0.3
@@ -6475,7 +6475,7 @@ snapshots:
 
   strip-bom@3.0.0: {}
 
-  stripe@22.3.2(@types/node@24.12.4):
+  stripe@22.4.0(@types/node@24.12.4):
     optionalDependencies:
       '@types/node': 24.12.4
 
